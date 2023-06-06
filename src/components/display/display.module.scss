@@ -1,0 +1,73 @@
+
+
+.display {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0 400px 0;
+    height: 100vh;
+    box-sizing: border-box;
+    opacity: 0;
+    position: relative;
+}
+
+.title {
+    color: #86868b;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    margin-bottom: 0;
+}
+
+.text {
+    display: inline-block;
+    color: transparent;
+    background-image: linear-gradient(180deg, #ffb6ff, #b344ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding-top: 0.5px;
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.desc {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.button {
+    outline: none;
+    border: none;
+    background: #0071e3;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    font-weight: 400;
+    min-width: 28px;
+    padding: 8px 16px;
+    border-radius: 980px;
+    margin: 15px;
+}
+
+.backButton {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 0.6rem;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}

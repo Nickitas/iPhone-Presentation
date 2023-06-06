@@ -1,0 +1,34 @@
+.loader {
+    position: fixed;
+    z-index: 2;
+    background-color: fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: fadeOut;
+    animation-duration: 0.3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    pointer-events: none;
+}
+  
+.loader .logo {
+    max-width: 400px;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+  
+
+@keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+}
